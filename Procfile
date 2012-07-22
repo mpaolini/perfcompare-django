@@ -1,0 +1,1 @@
+web: python perfcompare_django/manage.py run_gunicorn -b 0.0.0.0:$PORT -w1 -c gunicorn_conf.py
